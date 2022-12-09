@@ -1,0 +1,42 @@
+/*  Reset  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Generics  */
+body {
+    font-family: sans-serif;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* header */
+header {
+    height: 40px;
+    width: 100%;
+    background-color: blue;
+    border-radius: 20px 20px 0 0;
+}
+
+/* Main  */
+main {
+    height: 250px;
+    width: 100%;
+    background-color: lightgrey;
+}
+
+main p {
+    font-size: 10px;
+}
+
+/* footer */
+footer {
+    height: 30px;
+    width: 100%;
+    background-color: red;
+    border-radius: 0 0 20px 20px;
+}
